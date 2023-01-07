@@ -5,6 +5,21 @@
 }
 
 /* header section css */
-ul li {
+ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
     list-style: none;
+    background-color: red';
+
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: blue;
 }
